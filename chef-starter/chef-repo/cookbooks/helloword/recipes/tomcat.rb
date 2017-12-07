@@ -1,4 +1,4 @@
-packname = node['pack_name']
+packname = node['helloword']['pack_name']
 
 package packname do
   action :install

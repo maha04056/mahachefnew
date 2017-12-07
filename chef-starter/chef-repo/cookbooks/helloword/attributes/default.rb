@@ -1,4 +1,4 @@
-default['pack_name'] = 'tomcat'
+default['helloword']['pack_name'] = 'tomcat'
 if node['platform'] == 'ubuntu'
-    default['pack_name'] = 'tomcat7'
+    default['helloword']['pack_name'] = 'tomcat7'
 end
