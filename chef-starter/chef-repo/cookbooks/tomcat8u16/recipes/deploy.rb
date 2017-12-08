@@ -7,7 +7,7 @@
 file '/opt/tomcat/webapps/jenkins.war' do
   mode '0755'
   action :delete
-  only_if { ::File.exis?('/opt/tomcat/webapps/jenkins.war')}
+  only_if { ::File.exist?('/opt/tomcat/webapps/jenkins.war')}
 end
 
 
