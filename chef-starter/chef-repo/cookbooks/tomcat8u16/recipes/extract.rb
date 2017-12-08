@@ -13,8 +13,8 @@ end
 
 
 execute 'untarrrr' do
-  command 'tar xvf apache-tomcat-8*tar.gz -C /opt/tomcat --strip-components=1'
+  command 'tar xvf /home/ubuntu/apache-tomcat-8*tar.gz -C /opt/tomcat --strip-components=1'
   action :run
-  not_if { ::File.exist?('/opt/tomcat/apache-tomcat-8.0.47/NOTICE')}
+  not_if { ::File.exist?('/opt/tomcat/NOTICE')}
 end
 
