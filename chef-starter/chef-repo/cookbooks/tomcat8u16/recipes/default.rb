@@ -6,7 +6,7 @@
 
 
 
-include_recipe 'tomcat8u16::java'
+include_recipe 'java'
 include_recipe 'tomcat8u16::createuser'
 include_recipe 'tomcat8u16::downloadtomcat'
 include_recipe 'tomcat8u16::extract'
